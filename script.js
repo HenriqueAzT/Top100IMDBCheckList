@@ -1,4 +1,4 @@
-const apiKey = "2123d2e30fee7e3a1d159770055b1ff0";
+const apiKey = "APIKEY";
 const apiUrl = "https://api.themoviedb.org/3/movie/top_rated?language=pt-BR";
 
 const options = {
