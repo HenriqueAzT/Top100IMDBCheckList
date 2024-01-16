@@ -1,0 +1,133 @@
+/* Adicione essas regras CSS ao seu arquivo de estilos existente (style.css) */
+
+body {
+    background-color: #170f1b;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.dark-mode {
+    background-color: #1e1e1e;
+}
+
+/* Adicione estas regras CSS ao seu arquivo de estilos existente (style.css) */
+
+/* Adicione estas regras CSS ao seu arquivo de estilos existente (style.css) */
+
+#moviesContainer {
+    background-color: #252227; /* Cor de fundo um pouco mais clara para o container de filmes */
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+}
+
+/* O restante do seu código CSS permanece o mesmo */
+
+
+/* O restante do seu código CSS permanece o mesmo */
+
+
+.movie-card {
+    border: 1px solid #282828;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* Adicione esta regra CSS ao seu arquivo de estilos existente (style.css) */
+
+.movie-card.checked {
+    background-color: #3c383f; /* Cor de destaque vermelha */
+}
+
+
+.checkbox-container {
+    margin-right: 10px;
+}
+
+.checkbox-container input {
+    display: none;
+}
+
+.checkbox-custom {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #555;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.checkbox-container input:checked+.checkbox-custom:after {
+    content: '\2713';
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.checkbox-container label {
+    cursor: pointer;
+}
+
+.checkbox-container input:checked+.checkbox-custom {
+    background-color: #60d47d;
+}
+
+img {
+    max-width: 150px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+/* Adicione esta regra CSS ao seu arquivo de estilos existente (style.css) */
+
+/* Adicione esta regra CSS ao seu arquivo de estilos existente (style.css) */
+
+input[type="number"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: transparent; /* Torna o fundo invisível */
+    color: #ffffff; /* Cor do texto branco */
+}
+
+
+button {
+    padding: 8px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button.clear-rating-btn {
+    padding: 8px;
+    font-size: 14px;
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.clear-rating-btn:hover {
+    background-color: #c82333;
+}
